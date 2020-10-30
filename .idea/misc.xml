@@ -10,6 +10,9 @@
         <option value="$PROJECT_DIR$/cjs-gateway-example/pom.xml" />
         <option value="$PROJECT_DIR$/cjs-commodity-service/pom.xml" />
         <option value="$PROJECT_DIR$/cjs-eureka-server/pom.xml" />
+        <option value="$PROJECT_DIR$/cjs-auth-service/pom.xml" />
+        <option value="$PROJECT_DIR$/cjs-commons-jwt/pom.xml" />
+        <option value="$PROJECT_DIR$/cjs-price-service/pom.xml" />
       </list>
     </option>
   </component>

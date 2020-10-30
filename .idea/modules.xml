@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/cjs-auth-service/cjs-auth-service.iml" filepath="$PROJECT_DIR$/cjs-auth-service/cjs-auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjs-commodity-service/cjs-commodity-service.iml" filepath="$PROJECT_DIR$/cjs-commodity-service/cjs-commodity-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cjs-commons-jwt/cjs-commons-jwt.iml" filepath="$PROJECT_DIR$/cjs-commons-jwt/cjs-commons-jwt.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjs-eureka-server/cjs-eureka-server.iml" filepath="$PROJECT_DIR$/cjs-eureka-server/cjs-eureka-server.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjs-gateway-example/cjs-gateway-example.iml" filepath="$PROJECT_DIR$/cjs-gateway-example/cjs-gateway-example.iml" />
       <module fileurl="file://$PROJECT_DIR$/cjs-gateway-server/cjs-gateway-server.iml" filepath="$PROJECT_DIR$/cjs-gateway-server/cjs-gateway-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/cjs-price-service/cjs-price-service.iml" filepath="$PROJECT_DIR$/cjs-price-service/cjs-price-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/cjs-springcloud-example.iml" filepath="$PROJECT_DIR$/.idea/cjs-springcloud-example.iml" />
     </modules>
   </component>

@@ -6,17 +6,23 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="cjs-auth-service" />
         <module name="cjs-commodity-service" />
+        <module name="cjs-commons-jwt" />
         <module name="cjs-eureka-server" />
         <module name="cjs-gateway-example" />
         <module name="cjs-gateway-server" />
+        <module name="cjs-price-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="cjs-auth-service" target="1.8" />
       <module name="cjs-commodity-service" target="1.8" />
+      <module name="cjs-commons-jwt" target="1.8" />
       <module name="cjs-eureka-server" target="1.8" />
       <module name="cjs-gateway-example" target="1.8" />
       <module name="cjs-gateway-server" target="1.8" />
+      <module name="cjs-price-service" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
