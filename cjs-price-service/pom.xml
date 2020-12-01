@@ -66,6 +66,48 @@
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
         </dependency>
+
+        <!--pdf -->
+        <dependency>
+            <groupId>com.itextpdf</groupId>
+            <artifactId>itextpdf</artifactId>
+            <version>5.5.13.1</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.pdfbox</groupId>
+            <artifactId>pdfbox</artifactId>
+            <version>2.0.16</version>
+        </dependency>
+
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+        </dependency>
+
+        <dependency>
+            <groupId>technology.tabula</groupId>
+            <artifactId>tabula</artifactId>
+            <version>1.0.2</version>
+            <exclusions>
+                <exclusion>
+                    <artifactId>slf4j-simple</artifactId>
+                    <groupId>org.slf4j</groupId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <optional>true</optional>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.6</version>
+        </dependency>
     </dependencies>
 
     <dependencyManagement>

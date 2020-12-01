@@ -6,14 +6,14 @@ spring:
   application:
     name: cjs-gateway-server
   redis:
-    host: 192.168.0.180
+    host: 127.0.0.1
     password:
     port: 6379
   cloud:
     gateway:
       routes:
         - id: header_route
-          uri: http://192.168.0.180:8081/
+          uri: http://192.168.0.102:8081/
           predicates:
             - Header=X-Request-Id, \d+
 #        - id: path_route
@@ -21,7 +21,7 @@ spring:
 #          predicates:
 #            - Path=/foo/{segment},/bar/{segment}
         - id: query_route
-          uri: http://192.168.0.180:8081/
+          uri: http://192.168.0.102:8081/
           predicates:
             - Query=baz
 #      default-filters:

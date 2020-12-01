@@ -21,17 +21,17 @@ public class CjsGatewayServerApplication {
         SpringApplication.run(CjsGatewayServerApplication.class, args);
     }
 
-//    @Bean
-//    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
-//        return builder.routes()
-//                .route("path_route", r -> r.path("/price/**")
-//                        .filters(f -> f.addRequestHeader("hello", "world")
-//                                .addRequestParameter("name", "zhangsan")
-//                                .requestRateLimiter(c -> c.setRateLimiter(redisRateLimiter())))
-//                        .uri("http://192.168.0.180:8082/price"))
-//                .route("path_route", r -> r.path("/commodity/**").uri("http://192.168.0.180:8081/commodity"))
-//                .build();
-//    }
+    @Bean
+    public RouteLocator customRouteLocator(RouteLocatorBuilder builder) {
+        return builder.routes()
+                .route("path_route", r -> r.path("/price/**")
+                        .filters(f -> f.addRequestHeader("hello", "world")
+                                .addRequestParameter("name", "zhangsan")
+                                .requestRateLimiter(c -> c.setRateLimiter(redisRateLimiter())))
+                        .uri("http://192.168.0.102:8082/price"))
+                .route("path_route", r -> r.path("/commodity/**").uri("http://192.168.0.102:8081/commodity"))
+                .build();
+    }
 
     @Bean
     public RedisRateLimiter redisRateLimiter() {
